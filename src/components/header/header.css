@@ -1,0 +1,97 @@
+ul>li{
+    list-style: none !important;
+    font-size: 16px !important;
+    font-weight: 800 !important;
+    cursor: pointer !important; 
+}
+
+.box-shadow{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  z-index: 10 !important;
+}
+
+.navSignUpButton>button:hover {
+    transition: all 0.4s !important;
+    background: #0A303A !important;
+}
+
+.phoneNumber p:hover{
+    transition: all 0.4s !important;
+    color: #0A303A !important;
+    cursor: pointer !important;
+}
+
+.li-1 a:hover{
+    transition: all 0.3s !important;
+    color: #E74C25 !important;
+    
+}
+
+.li-2 a:hover{
+    transition: all 0.3s !important;
+    color: #167287 !important;
+    
+}
+
+.li-3 a:hover{
+    transition: all 0.3s !important;
+    color: #6572AE !important;
+    
+}
+
+.li-4 a:hover{
+    transition: all 0.3s !important;
+    color: #38BC83 !important;
+    
+}
+
+.li-5 a:hover{
+    transition: all 0.3s !important;
+    color: #A79201 !important;
+    
+}
+
+.li-6 a:hover{
+    transition: all 0.3s !important;
+    color: #11A5E4 !important;
+    
+}
+
+
+@media (max-width: 600px) {
+    .navBarResponsive {
+      padding: 1px; /* Reduce padding for smaller screens */
+    }
+  
+    .responsive-button {
+      font-size: 14px; /* Adjust button font size */
+      padding: 8px 16px; /* Reduce padding */
+      width: 80%; /* Reduce button width */
+      margin-bottom: 10px; /* Add spacing between elements */
+    }
+  
+    .responsive-img {
+      width: 120px; /* Smaller image size */
+      margin-bottom: 10px; /* Add spacing between elements */
+    }
+  
+    .responsive-icon {
+      font-size: 28px; /* Reduce icon size */
+    }
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Navbar background color */
+     /* Navbar text color */
+    z-index: 1000; /* Ensure it stays above other elements */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  

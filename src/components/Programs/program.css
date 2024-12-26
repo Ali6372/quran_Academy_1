@@ -1,0 +1,32 @@
+.programText{
+    width: max-content !important;
+}
+
+.animated-hr-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .animated-hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, #4caf50, #2196f3, #ff5722);
+    border-radius: 2px;
+    width: 0%;
+    animation: expandLine 2s ease-out forwards;
+    margin: auto;
+  }
+
+  
+  @keyframes expandLine {
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 10%;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  

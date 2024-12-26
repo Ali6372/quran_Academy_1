@@ -1,0 +1,72 @@
+/* Footer styling */
+footer {
+    background-color: #343a40;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  footer.animate-footer {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+  }
+  
+  footer h5 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  footer p, footer a {
+    font-size: 14px;
+    color: #d6d6d6;
+  }
+  
+  footer .list-unstyled {
+    padding-left: 0;
+  }
+  
+  footer .list-unstyled li {
+    margin-bottom: 10px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .bi {
+    font-size: 20px;
+  }
+  
+  /* Add space between social media links */
+  footer .me-3 {
+    margin-right: 15px;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    footer .row {
+      text-align: center;
+    }
+  
+    footer .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Animation styles */
+  footer.animate-footer {
+    transform: translateY(0); /* Makes the footer slide in */
+    opacity: 1;
+  }
+  
+  /* Fading In Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
